@@ -1,0 +1,39 @@
+/* ===== Main Page ===== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #eef2ff, #dbeafe);
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ===== Main Heading ===== */
+
+h1 {
+    color: #4f46e5;
+    background-color: white;
+
+    padding: 30px 50px;
+    border-radius: 15px;
+
+    font-size: 45px;
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+    transition: 0.3s;
+}
+
+
+/* ===== Hover Effect ===== */
+
+h1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
